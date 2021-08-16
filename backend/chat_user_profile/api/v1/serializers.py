@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from chat_user_profile.models import Profile, VerificationCode, Contact
+from chat_user_profile.models import Contact, Profile, VerificationCode
 
 
 class ContactSerializer(serializers.ModelSerializer):

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Profile, VerificationCode, Contact
+from .models import Contact, Profile, VerificationCode
 
 admin.site.register(Contact)
 admin.site.register(VerificationCode)
