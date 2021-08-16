@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'virtual_robot_29858.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "virtual_robot_29858.settings")
 
 application = get_wsgi_application()
